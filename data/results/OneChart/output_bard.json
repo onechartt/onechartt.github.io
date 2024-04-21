@@ -1,0 +1,1000 @@
+{
+    "1": {
+        "question": "When a spring does work on an object, we cannot find the work by simply multiplying the spring force by the object's displacement. The reason is that there is no one value for the force-it changes. However, we can split the displacement up into an infinite number of tiny parts and then approximate the force in each as being constant. Integration sums the work done in all those parts. Here we use the generic result of the integration.\r\n\r\nIn Figure, a cumin canister of mass $m=0.40 \\mathrm{~kg}$ slides across a horizontal frictionless counter with speed $v=0.50 \\mathrm{~m} / \\mathrm{s}$. It then runs into and compresses a spring of spring constant $k=750 \\mathrm{~N} / \\mathrm{m}$. When the canister is momentarily stopped by the spring, by what distance $d$ is the spring compressed?",
+        "image": "images/1.jpg",
+        "choices": null,
+        "unit": null,
+        "precision": 1,
+        "answer": "1.2",
+        "question_type": "free_form",
+        "answer_type": "float",
+        "pid": "1",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 1514,
+            "img_height": 720,
+            "source": "SciBench",
+            "category": "math-targeted-vqa",
+            "task": "textbook question answering",
+            "context": "scientific figure",
+            "grade": "college",
+            "skills": [
+                "scientific reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question requiring a floating-point number with one decimal place and provide the final value, e.g., 1.2, 1.3, 1.4, at the end.\nQuestion: When a spring does work on an object, we cannot find the work by simply multiplying the spring force by the object's displacement. The reason is that there is no one value for the force-it changes. However, we can split the displacement up into an infinite number of tiny parts and then approximate the force in each as being constant. Integration sums the work done in all those parts. Here we use the generic result of the integration.\r\n\r\nIn Figure, a cumin canister of mass $m=0.40 \\mathrm{~kg}$ slides across a horizontal frictionless counter with speed $v=0.50 \\mathrm{~m} / \\mathrm{s}$. It then runs into and compresses a spring of spring constant $k=750 \\mathrm{~N} / \\mathrm{m}$. When the canister is momentarily stopped by the spring, by what distance $d$ is the spring compressed?",
+        "response": "Sure, I can help you with that.\n\nThe work done by the spring is given by the following equation:\n\n```\nW = -\\dfrac{1}{2}kx^2\n```\n\nwhere $k$ is the spring constant, $x$ is the distance the spring is compressed, and the negative sign indicates that the work is done by the spring on the canister.\n\nWe know that the mass of the canister is $m = 0.40$ kg, the speed of the canister is $v = 0.50$ m/s, and the spring constant is $k = 750$ N/m. We are trying to find the distance $d$ the spring is compressed.\n\nSubstituting these values into the equation for work, we get:\n\n```\nW = -\\dfrac{1}{2}(750)(d^2)\n```\n\nWe know that the work done by the spring is also equal to the change in kinetic energy of the canister, which is given by the following equation:\n\n```\nW = \\dfrac{1}{2}mv^2\n```\n\nSubstituting this equation into the equation for the work done by the spring, we get:\n\n```\n\\dfrac{1}{2}mv^2 = -\\dfrac{1}{2}(750)(d^2)\n```\n\nSolving for $d$, we get:\n\n```\nd^2 = \\dfrac{mv^2}{375}\n```\n\n```\nd = \\sqrt{\\dfrac{mv^2}{375}}\n```\n\n```\nd = \\sqrt{\\dfrac{(0.40)(0.50)^2}{375}} = 0.11 \\text{ m}\n```\n\nTo two decimal places, the distance the spring is compressed is $d = 0.11$ m.\n\nTherefore, the distance the spring is compressed is 0.11 meters.",
+        "error": "",
+        "extraction": "0.11",
+        "true_false": false,
+        "prediction": "0.1"
+    },
+    "2": {
+        "question": "what is the total volume of the measuring cup?",
+        "image": "images/2.jpg",
+        "choices": null,
+        "unit": "g",
+        "precision": null,
+        "answer": "1000",
+        "question_type": "free_form",
+        "answer_type": "integer",
+        "pid": "2",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 1024,
+            "img_height": 768,
+            "source": "TextVQA",
+            "category": "general-vqa",
+            "task": "visual question answering",
+            "context": "natural image",
+            "grade": "not applicable",
+            "skills": [
+                "numeric commonsense",
+                "arithmetic reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.\nQuestion: what is the total volume of the measuring cup? (Unit: g)",
+        "response": "Based on the image you sent, the total volume of the measuring cup is 250 g. The text on the measuring cup reads \"Mehl/Farine 2000 g\" which means \"Flour/Flour 2000 g\". This means that the maximum volume of the measuring cup is 2000 g. However, the measuring cup is only filled to the 250 g mark, so the total volume of the measuring cup is 250 g.\r\n\r\nI hope this answers your question. Let me know if you have any other questions.",
+        "error": "",
+        "extraction": "250",
+        "true_false": false,
+        "prediction": "250"
+    },
+    "3": {
+        "question": "\u25b3ABC\u7684\u4e24\u5185\u89d2\u5e73\u5206\u7ebfOB\u3001OC\u76f8\u4ea4\u4e8e\u70b9O\uff0c\u82e5\u2220A\uff1d110\u00b0\uff0c\u5219\u2220BOC\uff1d\uff08\uff09",
+        "image": "images/3.jpg",
+        "choices": [
+            "135\u00b0",
+            "140\u00b0",
+            "145\u00b0",
+            "150\u00b0"
+        ],
+        "unit": null,
+        "precision": null,
+        "answer": "145\u00b0",
+        "question_type": "multi_choice",
+        "answer_type": "text",
+        "pid": "3",
+        "metadata": {
+            "split": "testmini",
+            "language": "chinese",
+            "img_width": 131,
+            "img_height": 60,
+            "source": "GeoQA+",
+            "category": "math-targeted-vqa",
+            "task": "geometry problem solving",
+            "context": "geometry diagram",
+            "grade": "high school",
+            "skills": [
+                "algebraic reasoning",
+                "geometry reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: \u25b3ABC\u7684\u4e24\u5185\u89d2\u5e73\u5206\u7ebfOB\u3001OC\u76f8\u4ea4\u4e8e\u70b9O\uff0c\u82e5\u2220A\uff1d110\u00b0\uff0c\u5219\u2220BOC\uff1d\uff08\uff09\nChoices:\n(A) 135\u00b0\n(B) 140\u00b0\n(C) 145\u00b0\n(D) 150\u00b0",
+        "response": "The correct answer is **(C) 145\u00b0**.\n\nSince the angle bisectors of angles B and C intersect at point O, then \u2220BOC = 90\u00b0 + \u2220A/2 = 90\u00b0 + 110\u00b0/2 = **145\u00b0**.\n\nHere is the proof:\n\n```\n[ABC]\nO-----B\n/   \\\n/____\\\nA     C\n\n\u2220BOC = \u22201 + \u22202\n\n\u22201 = \u2220A/2\n\n\u22202 = 180\u00b0 - \u2220A - \u22201 = 180\u00b0 - \u2220A - \u2220A/2 = 180\u00b0 - 3\u2220A/2\n\n\u2220BOC = \u22201 + \u22202 = \u2220A/2 + 180\u00b0 - 3\u2220A/2 = 90\u00b0 + \u2220A/2\n```\n\nI hope this helps! Let me know if you have any other questions.",
+        "error": "",
+        "extraction": "C",
+        "true_false": true,
+        "prediction": "145\u00b0"
+    },
+    "4": {
+        "question": "Subtract all large rubber spheres. Subtract all big shiny cylinders. How many objects are left?",
+        "image": "images/4.jpg",
+        "choices": null,
+        "unit": null,
+        "precision": null,
+        "answer": "4",
+        "question_type": "free_form",
+        "answer_type": "integer",
+        "pid": "4",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 320,
+            "img_height": 240,
+            "source": "CLEVR-Math",
+            "category": "math-targeted-vqa",
+            "task": "math word problem",
+            "context": "synthetic scene",
+            "grade": "elementary school",
+            "skills": [
+                "arithmetic reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.\nQuestion: Subtract all large rubber spheres. Subtract all big shiny cylinders. How many objects are left?",
+        "response": "Sure, I can help you with that.\n\nThere are 8 objects in the image.\n\n* 3 large rubber spheres\n* 3 small rubber spheres\n* 2 big shiny cylinders\n\nIf we subtract all large rubber spheres, there will be 5 objects left.\n\n* 3 small rubber spheres\n* 2 big shiny cylinders\n\nIf we also subtract all big shiny cylinders, there will be 3 objects left.\n\n* 3 small rubber spheres\n\nSo the answer is 3.\n\nI hope this helps!",
+        "error": "",
+        "extraction": "3",
+        "true_false": false,
+        "prediction": "3"
+    },
+    "5": {
+        "question": "Find $m\\angle H$",
+        "image": "images/5.jpg",
+        "choices": [
+            "97",
+            "102",
+            "107",
+            "122"
+        ],
+        "unit": null,
+        "precision": null,
+        "answer": "97",
+        "question_type": "multi_choice",
+        "answer_type": "text",
+        "pid": "5",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 322,
+            "img_height": 245,
+            "source": "Geometry3K",
+            "category": "math-targeted-vqa",
+            "task": "geometry problem solving",
+            "context": "geometry diagram",
+            "grade": "high school",
+            "skills": [
+                "algebraic reasoning",
+                "geometry reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Find $m\\angle H$\nChoices:\n(A) 97\n(B) 102\n(C) 107\n(D) 122",
+        "response": "Sure, I can help you with that.\n\nThe sum of the interior angles of a rhombus is 360 degrees. Since all the sides of a rhombus are equal, each angle in a rhombus is equal to 180 degrees - 360 degrees/4 = 180 degrees - 90 degrees = 90 degrees.\n\nAngles F and J are opposite angles in the rhombus, so they are supplementary angles. Therefore, $m\\angle F + m\\angle J = 180^\\circ$.\n\nSubstituting in the expressions that were given for each angle, we get $(x + 20^\\circ) + (x - 5^\\circ) = 180^\\circ$.\n\nCombining like terms, we get $2x + 15^\\circ = 180^\\circ$.\n\nSubtracting 15 degrees from both sides, we get $2x = 165^\\circ$.\n\nDividing both sides by 2, we get $x = 82.5^\\circ$.\n\nTherefore, $m\\angle H = (x + 10^\\circ) = (82.5^\\circ + 10^\\circ) = \\boxed{92.5^\\circ}$.\n\nHere is a breakdown of the steps:\n\n1. Find the measure of each angle in the rhombus.\n2. Find the sum of the measures of angles F and J.\n3. Set the sum equal to 180 degrees.\n4. Solve for x.\n5. Substitute the value of x into the expression for $m\\angle H$ to find its measure.",
+        "extraction": "92.5",
+        "true_false": true,
+        "prediction": "97"
+    },
+    "6": {
+        "question": "As shown in the figure, if CB = 4.0, DB = 7.0, and D is the midpoint of AC, then the length of AC is ()",
+        "image": "images/6.jpg",
+        "choices": [
+            "6cm",
+            "7cm",
+            "4cm",
+            "5cm"
+        ],
+        "unit": null,
+        "precision": null,
+        "answer": "6cm",
+        "question_type": "multi_choice",
+        "answer_type": "text",
+        "pid": "6",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 203,
+            "img_height": 30,
+            "source": "UniGeo",
+            "category": "math-targeted-vqa",
+            "task": "geometry problem solving",
+            "context": "geometry diagram",
+            "grade": "high school",
+            "skills": [
+                "geometry reasoning",
+                "algebraic reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, if CB = 4.0, DB = 7.0, and D is the midpoint of AC, then the length of AC is ()\nChoices:\n(A) 6cm\n(B) 7cm\n(C) 4cm\n(D) 5cm",
+        "response": "The answer is (D).\n\nSince D is the midpoint of AC, then AD = DC = (AC/2).\n\nWe know that CB = 4.0 and DB = 7.0, and that AD = DC. So we can write the equation:\n\n```\nAD + DC = 4.0 + 7.0\n```\n\n```\n2AD = 11.0\n```\n\n```\nAD = 5.5\n```\n\n```\nAC = 2AD = 11.0 cm\n```\n\nTherefore, the length of AC is 11.0 cm, which is answer choice (D).",
+        "error": "",
+        "extraction": "D",
+        "prediction": "5cm",
+        "true_false": false
+    },
+    "7": {
+        "question": "What time is shown? Answer by typing a time word, not a number. It is (_) after eight.",
+        "image": "images/7.jpg",
+        "choices": [
+            "half",
+            "quarter",
+            "o'clock",
+            "quarter to",
+            "quarter past"
+        ],
+        "unit": null,
+        "precision": null,
+        "answer": "quarter",
+        "question_type": "multi_choice",
+        "answer_type": "text",
+        "pid": "7",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 203,
+            "img_height": 204,
+            "source": "IconQA",
+            "category": "math-targeted-vqa",
+            "task": "math word problem",
+            "context": "abstract scene",
+            "grade": "elementary school",
+            "skills": [
+                "numeric commonsense"
+            ]
+        },
+        "query": "Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: What time is shown? Answer by typing a time word, not a number. It is (_) after eight.\nChoices:\n(A) half\n(B) quarter\n(C) o'clock\n(D) quarter to\n(E) quarter past",
+        "response": "The image you sent shows a clock with the hands pointing to 8:15. So the time is **quarter past eight**. (E)\n\nThe hour hand is between 8 and 9, which means it is past 8 o'clock. The minute hand is pointing to the 3, which is 15 minutes past. Therefore, the time is quarter past eight.\n\nHere are the other possible answers and why they are incorrect:\n\n* **(A) Half.** This would be the correct answer if the minute hand was pointing to the 6, which would mean it is 8:30, or half past eight.\n* **(B) Quarter.** This would be the correct answer if the minute hand was pointing to the 7, which would mean it is 8:15, or quarter past eight.\n* **(C) O'clock.** This would be the correct answer if the minute hand was pointing to the 12, which would mean it is 8:00 o'clock.\n* **(D) Quarter to.** This would be the correct answer if the minute hand was pointing to the 4, which would mean it is 7:45, or quarter to eight.",
+        "extraction": "E",
+        "true_false": false,
+        "prediction": "quarter past"
+    },
+    "8": {
+        "question": "Is the number of tiny gray bicycles that are on the left side of the brown metal sedan greater than the number of things that are to the left of the tiny green bicycle?",
+        "image": "images/8.jpg",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "unit": null,
+        "precision": null,
+        "answer": "Yes",
+        "question_type": "multi_choice",
+        "answer_type": "text",
+        "pid": "8",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 640,
+            "img_height": 480,
+            "source": "Super-CLEVR",
+            "category": "general-vqa",
+            "task": "visual question answering",
+            "context": "synthetic scene",
+            "grade": "not applicable",
+            "skills": [
+                "arithmetic reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is the number of tiny gray bicycles that are on the left side of the brown metal sedan greater than the number of things that are to the left of the tiny green bicycle?\nChoices:\n(A) Yes\n(B) No",
+        "response": "The correct answer is (B), No.\n\nThere are zero tiny gray bicycles to the left of the brown metal sedan. There are one tiny green bicycle, one motorcycle, and one car to the left of the tiny green bicycle.\n\nThe code snippet you provided correctly outputs \"No\".\n\nI hope this answers your question!",
+        "extraction": "B",
+        "true_false": false,
+        "prediction": "No"
+    },
+    "9": {
+        "question": "\u5982\u56fe\u662f\u4e00\u682a\u7f8e\u4e3d\u7684\u52fe\u80a1\u6811\uff0c\u5176\u4e2d\u6240\u6709\u56db\u8fb9\u5f62\u90fd\u662f\u6b63\u65b9\u5f62\uff0c\u6240\u6709\u7684\u4e09\u89d2\u5f62\u90fd\u662f\u76f4\u89d2\u4e09\u89d2\u5f62\uff0c\u82e5\u6b63\u65b9\u5f62A\u3001B\u7684\u9762\u79ef\u5206\u522b\u4e3a5\u30013\uff0c\u5219\u6700\u5927\u6b63\u65b9\u5f62C\u7684\u9762\u79ef\u662f\uff08\uff09",
+        "image": "images/9.jpg",
+        "choices": [
+            "15",
+            "13",
+            "11",
+            "8"
+        ],
+        "unit": null,
+        "precision": null,
+        "answer": "8",
+        "question_type": "multi_choice",
+        "answer_type": "text",
+        "pid": "9",
+        "metadata": {
+            "split": "testmini",
+            "language": "chinese",
+            "img_width": 134,
+            "img_height": 155,
+            "source": "GeoQA+",
+            "category": "math-targeted-vqa",
+            "task": "geometry problem solving",
+            "context": "geometry diagram",
+            "grade": "high school",
+            "skills": [
+                "algebraic reasoning",
+                "geometry reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: \u5982\u56fe\u662f\u4e00\u682a\u7f8e\u4e3d\u7684\u52fe\u80a1\u6811\uff0c\u5176\u4e2d\u6240\u6709\u56db\u8fb9\u5f62\u90fd\u662f\u6b63\u65b9\u5f62\uff0c\u6240\u6709\u7684\u4e09\u89d2\u5f62\u90fd\u662f\u76f4\u89d2\u4e09\u89d2\u5f62\uff0c\u82e5\u6b63\u65b9\u5f62A\u3001B\u7684\u9762\u79ef\u5206\u522b\u4e3a5\u30013\uff0c\u5219\u6700\u5927\u6b63\u65b9\u5f62C\u7684\u9762\u79ef\u662f\uff08\uff09\nChoices:\n(A) 15\n(B) 13\n(C) 11\n(D) 8",
+        "response": "The correct answer is (C).\n\nThe Pythagorean tree is a fractal that shows the relationship between the areas of squares in a right triangle. In the given picture, square A is the base of the right triangle, square B is the height of the right triangle, and square C is the hypotenuse of the right triangle.\n\nWe are given that the areas of squares A and B are 5 and 3 respectively. This means that the side length of square A is $\\sqrt{5}$ and the side length of square B is $\\sqrt{3}$.\n\nThe Pythagorean theorem states that in a right triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides. In this case, the hypotenuse is the side length of square C. So we have:\n\n$(\\sqrt{C})^2 = (\\sqrt{5})^2 + (\\sqrt{3})^2$\n\n$C = \\sqrt{5^2 + 3^2}$\n\n$C = \\sqrt{25 + 9}$\n\n$C = \\sqrt{34}$\n\nThe area of square C is $C^2 = 34$. So the answer is (C).\n\nI hope this helps! Let me know if you have any other questions.",
+        "extraction": "C",
+        "true_false": false,
+        "prediction": "11"
+    },
+    "10": {
+        "question": "Which object comes next?",
+        "image": "images/10.jpg",
+        "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+        ],
+        "unit": null,
+        "precision": null,
+        "answer": "E",
+        "question_type": "multi_choice",
+        "answer_type": "text",
+        "pid": "10",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 376,
+            "img_height": 418,
+            "source": "IQTest",
+            "category": "math-targeted-vqa",
+            "task": "figure question answering",
+            "context": "puzzle test",
+            "grade": "elementary school",
+            "skills": [
+                "logical reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Which object comes next?\nChoices:\n(A) A\n(B) B\n(C) C\n(D) D\n(E) E",
+        "response": "The answer is (E).\n\nThe pattern is to add a new letter or number to the sequence, and rotate the sequence 180 degrees clockwise. So, the next object in the sequence is the letter H, rotated 180 degrees clockwise, which is the image in option (E).\n\nHere is the explanation of the pattern:\n\n* The first row has the letter A.\n* The second row has the number 8.\n* The third row has the letter B.\n* The fourth row has the letter T.\n* The fifth row has the Greek letter \u03c4, which is pronounced \"tau\" and is the 19th letter of the Greek alphabet.\n* The sixth row has the number 8 again.\n* The seventh row has the letter T again.\n* The eighth row has the letter H.\n\nIf we rotate the sequence 180 degrees clockwise, we get the following:\n\n* The first row becomes the eighth row, which is the letter H.\n* The second row becomes the seventh row, which is the number 8.\n* The third row becomes the sixth row, which is the letter T.\n* The fourth row becomes the fifth row, which is the Greek letter \u03c4.\n* The fifth row becomes the fourth row, which is the number 8 again.\n* The sixth row becomes the third row, which is the letter T again.\n* The seventh row becomes the second row, which is the letter B.\n* The eighth row becomes the first row, which is the letter A.\n\nTherefore, the next object in the sequence is the letter H, which is option (E).",
+        "extraction": "E",
+        "true_false": true,
+        "prediction": "E"
+    },
+    "11": {
+        "question": "Subtract all red things. Subtract all tiny matte balls. How many objects are left?",
+        "image": "images/11.jpg",
+        "choices": null,
+        "unit": null,
+        "precision": null,
+        "answer": "5",
+        "question_type": "free_form",
+        "answer_type": "integer",
+        "pid": "11",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 320,
+            "img_height": 240,
+            "source": "CLEVR-Math",
+            "category": "math-targeted-vqa",
+            "task": "math word problem",
+            "context": "synthetic scene",
+            "grade": "elementary school",
+            "skills": [
+                "arithmetic reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.\nQuestion: Subtract all red things. Subtract all tiny matte balls. How many objects are left?",
+        "response": "There are 6 red objects and 3 tiny matte balls in the image. If we subtract all red things and all tiny matte balls, then there are 3 objects left.\n\n* The big red ball is subtracted.\n* The two red cylinders are subtracted.\n* The three tiny matte balls are subtracted.\n* The green ball, the blue ball, and the yellow cylinder are left.\n\nSo the answer is 3.",
+        "extraction": "3",
+        "true_false": false,
+        "prediction": "3"
+    },
+    "12": {
+        "question": "Are there fewer metallic fighters than rubber objects?",
+        "image": "images/12.jpg",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "unit": null,
+        "precision": null,
+        "answer": "Yes",
+        "question_type": "multi_choice",
+        "answer_type": "text",
+        "pid": "12",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 640,
+            "img_height": 480,
+            "source": "Super-CLEVR",
+            "category": "general-vqa",
+            "task": "visual question answering",
+            "context": "synthetic scene",
+            "grade": "not applicable",
+            "skills": [
+                "arithmetic reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Are there fewer metallic fighters than rubber objects?\nChoices:\n(A) Yes\n(B) No",
+        "response": "The answer is **(B) No**.\n\nThe image shows a bicycle and a train. The bicycle is made of metal, while the train is made of metal and rubber. So, there are more metallic fighters (the train) than rubber objects (the bicycle).\n\nThe question is asking about the number of objects, not the weight of the objects. The train is heavier than the bicycle, but it is still made of metal, which makes it a metallic fighter.\n\nSo the answer is no, there are not fewer metallic fighters than rubber objects.",
+        "extraction": "B",
+        "true_false": false,
+        "prediction": "No"
+    },
+    "13": {
+        "question": "How many objects are preferred by more than 90 percent of people in at least one category?",
+        "image": "images/13.jpg",
+        "choices": null,
+        "unit": null,
+        "precision": null,
+        "answer": "0",
+        "question_type": "free_form",
+        "answer_type": "integer",
+        "pid": "13",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 448,
+            "img_height": 448,
+            "source": "DVQA",
+            "category": "general-vqa",
+            "task": "figure question answering",
+            "context": "bar chart",
+            "grade": "not applicable",
+            "skills": [
+                "statistical reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.\nQuestion: How many objects are preferred by more than 90 percent of people in at least one category?",
+        "response": "There are 3 objects preferred by more than 90 percent of people in at least one category.\n\n* Racing: 90%\n* Grease: 90%\n* Afraid: 60%\n\nOnly racing is preferred by more than 90% of people in a single category. However, both grease and afraid are preferred by more than 90% of people when combined with the racing category.\n\nTherefore, there are 3 objects preferred by more than 90 percent of people in at least one category.",
+        "extraction": "3",
+        "true_false": false,
+        "prediction": "3"
+    },
+    "14": {
+        "question": "Is the number of tiny objects that are behind the small metal jet less than the number of tiny things left of the tiny sedan?",
+        "image": "images/14.jpg",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "unit": null,
+        "precision": null,
+        "answer": "Yes",
+        "question_type": "multi_choice",
+        "answer_type": "text",
+        "pid": "14",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 640,
+            "img_height": 480,
+            "source": "Super-CLEVR",
+            "category": "general-vqa",
+            "task": "visual question answering",
+            "context": "synthetic scene",
+            "grade": "not applicable",
+            "skills": [
+                "arithmetic reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is the number of tiny objects that are behind the small metal jet less than the number of tiny things left of the tiny sedan?\nChoices:\n(A) Yes\n(B) No",
+        "response": "The answer is **(B) No**.\n\nThere are 10 tiny objects behind the small metal jet, and 15 tiny things left of the tiny sedan. Therefore, the number of tiny objects behind the jet is not less than the number of tiny things left of the sedan.\n\nI counted the tiny objects as follows:\n\n* Behind the jet: 1 motorcycle, 2 cars, 7 toy soldiers\n* Left of the sedan: 1 motorcycle, 4 cars, 10 toy soldiers\n\nI hope this helps!\n\nIs there anything else I can help you with?",
+        "extraction": "B",
+        "true_false": false,
+        "prediction": "No"
+    },
+    "15": {
+        "question": "Which organism with be most affected if algae was eliminated?",
+        "image": "images/15.jpg",
+        "choices": [
+            "Tilapia",
+            "Common water flea",
+            "Great diving beetle",
+            "Tadpole"
+        ],
+        "unit": null,
+        "precision": null,
+        "answer": "Common water flea",
+        "question_type": "multi_choice",
+        "answer_type": "text",
+        "pid": "15",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 400,
+            "img_height": 232,
+            "source": "TQA",
+            "category": "general-vqa",
+            "task": "textbook question answering",
+            "context": "scientific figure",
+            "grade": "high school",
+            "skills": [
+                "scientific reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Which organism with be most affected if algae was eliminated?\nChoices:\n(A) Tilapia\n(B) Common water flea\n(C) Great diving beetle\n(D) Tadpole",
+        "response": "The answer is (D), tadpole.\n\nAlgae is the base of the food chain in the image, so all of the other organisms rely on it for food. If algae were eliminated, the common water flea, great diving beetle, and tilapia would all have less food available to them. However, the tadpole would be the most affected because it is a herbivore and relies almost exclusively on algae for food.\n\nThe tilapia is a carnivore and would be able to find other sources of food, such as insects or small fish. The common water flea and great diving beetle are omnivores and would also be able to find other sources of food, such as detritus or small animals.\n\nSo the tadpole is the correct answer because it is the organism that would be most affected by the elimination of algae.",
+        "extraction": "D",
+        "true_false": false,
+        "prediction": "Tadpole"
+    },
+    "16": {
+        "question": "How many items sold less than 5 units in at least one store?",
+        "image": "images/16.jpg",
+        "choices": null,
+        "unit": null,
+        "precision": null,
+        "answer": "2",
+        "question_type": "free_form",
+        "answer_type": "integer",
+        "pid": "16",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 448,
+            "img_height": 448,
+            "source": "DVQA",
+            "category": "general-vqa",
+            "task": "figure question answering",
+            "context": "bar chart",
+            "grade": "not applicable",
+            "skills": [
+                "statistical reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.\nQuestion: How many items sold less than 5 units in at least one store?",
+        "response": "There are 3 items that sold less than 5 units in at least one store.\n\nThe items are:\n\n* **Candy:** Sold 4 units in store `very` and 2 units in store `mill`.\n* **Cook:** Sold 2 units in store `cop`.\n* **Dot:** Sold 0 units in all stores.\n\nTherefore, there are a total of **3** items that sold less than 5 units in at least one store.\n\nI hope this helps! Let me know if you have any other questions.",
+        "extraction": "3",
+        "true_false": false,
+        "prediction": "3"
+    },
+    "17": {
+        "question": "\u5982\u56fe\uff0c\u5728Rt\u25b3ABC\u4e2d\uff0c\u2220ACB\uff1d90\u00b0\uff0cD\u662fAB\u7684\u4e2d\u70b9\uff0cAB\uff1d10\uff0c\u5219CD\u7684\u957f\u4e3a\uff08\uff09",
+        "image": "images/17.jpg",
+        "choices": [
+            "5",
+            "6",
+            "8",
+            "10"
+        ],
+        "unit": null,
+        "precision": null,
+        "answer": "5",
+        "question_type": "multi_choice",
+        "answer_type": "text",
+        "pid": "17",
+        "metadata": {
+            "split": "testmini",
+            "language": "chinese",
+            "img_width": 125,
+            "img_height": 172,
+            "source": "GeoQA+",
+            "category": "math-targeted-vqa",
+            "task": "geometry problem solving",
+            "context": "geometry diagram",
+            "grade": "high school",
+            "skills": [
+                "algebraic reasoning",
+                "geometry reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: \u5982\u56fe\uff0c\u5728Rt\u25b3ABC\u4e2d\uff0c\u2220ACB\uff1d90\u00b0\uff0cD\u662fAB\u7684\u4e2d\u70b9\uff0cAB\uff1d10\uff0c\u5219CD\u7684\u957f\u4e3a\uff08\uff09\nChoices:\n(A) 5\n(B) 6\n(C) 8\n(D) 10",
+        "response": "The answer is (B).\n\nSince D is the midpoint of AB, then AD = DB = 5.\n\n[asy]\npair A,B,C,D;\nA = (0,0);\nB = (5,0);\nC = (5,5);\nD = (2.5,0);\ndraw(A--B--C--cycle);\ndraw(rightanglemark(A,D,C,10));\nlabel(\"$A$\",A,SW);\nlabel(\"$B$\",B,SE);\nlabel(\"$C$\",C,N);\nlabel(\"$D$\",D,SW);\n[/asy]\n\nApplying the Pythagorean Theorem to right triangle ACD, we get CD^2 = AD^2 + DC^2 = 5^2 + 5^2 = 50 = 5^2 * 2^2, so CD = 5 * 2 = **10**.\n\nHence, the correct choice is (B).",
+        "extraction": "B",
+        "true_false": false,
+        "prediction": "6"
+    },
+    "18": {
+        "question": "The passage below describes an experiment. Read the passage and then follow the instructions below.\n\nLinda applied a thin layer of wax to the underside of her snowboard and rode the board straight down a hill. Then, she removed the wax and rode the snowboard straight down the hill again. She repeated the rides four more times, alternating whether she rode with a thin layer of wax on the board or not. Her friend Bob timed each ride. Linda and Bob calculated the average time it took to slide straight down the hill on the snowboard with wax compared to the average time on the snowboard without wax.\nFigure: snowboarding down a hill. Identify the question that Linda and Bob's experiment can best answer.",
+        "image": "images/18.jpg",
+        "choices": [
+            "Does Linda's snowboard slide down a hill in less time when it has a thin layer of wax or a thick layer of wax?",
+            "Does Linda's snowboard slide down a hill in less time when it has a layer of wax or when it does not have a layer of wax?"
+        ],
+        "unit": null,
+        "precision": null,
+        "answer": "Does Linda's snowboard slide down a hill in less time when it has a layer of wax or when it does not have a layer of wax?",
+        "question_type": "multi_choice",
+        "answer_type": "text",
+        "pid": "18",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 302,
+            "img_height": 232,
+            "source": "ScienceQA",
+            "category": "general-vqa",
+            "task": "textbook question answering",
+            "context": "natural image",
+            "grade": "elementary school",
+            "skills": [
+                "scientific reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: The passage below describes an experiment. Read the passage and then follow the instructions below.\n\nLinda applied a thin layer of wax to the underside of her snowboard and rode the board straight down a hill. Then, she removed the wax and rode the snowboard straight down the hill again. She repeated the rides four more times, alternating whether she rode with a thin layer of wax on the board or not. Her friend Bob timed each ride. Linda and Bob calculated the average time it took to slide straight down the hill on the snowboard with wax compared to the average time on the snowboard without wax.\nFigure: snowboarding down a hill. Identify the question that Linda and Bob's experiment can best answer.\nChoices:\n(A) Does Linda's snowboard slide down a hill in less time when it has a thin layer of wax or a thick layer of wax?\n(B) Does Linda's snowboard slide down a hill in less time when it has a layer of wax or when it does not have a layer of wax?",
+        "response": "The correct answer is (B).\n\nLinda and Bob's experiment is designed to test the effect of waxing a snowboard on its speed. They repeated the experiment 5 times, each time waxing the snowboard or not waxing it. This allows them to control for other factors that could affect the speed of the snowboard, such as the rider's technique or the slope of the hill.\n\nBy comparing the average time it took to slide down the hill with wax to the average time without wax, they can determine whether waxing the snowboard makes it slide down the hill faster.\n\nOption (A) is incorrect because it asks about the difference between a thin layer of wax and a thick layer of wax. The experiment only compares the time it takes to slide down the hill with wax to the time it takes to slide down the hill without wax.\n\nOption (C) is incorrect because it asks about the effect of waxing the snowboard on its acceleration. The experiment only measures the time it takes to slide down the hill, not the speed at which the snowboard is traveling.\n\nOption (D) is incorrect because it is not a specific question that can be answered by the experiment. The experiment can only compare the time it takes to slide down the hill with wax to the time it takes to slide down the hill without wax. It cannot say anything about how much faster the snowboard will slide with wax.\n\nSo the best question that Linda and Bob's experiment can answer is (B): Does Linda's snowboard slide down a hill in less time when it has a layer of wax or when it does not have a layer of wax?",
+        "extraction": "B",
+        "true_false": true,
+        "prediction": "Does Linda's snowboard slide down a hill in less time when it has a layer of wax or when it does not have a layer of wax?"
+    },
+    "19": {
+        "question": "what is the highest amount this class measures?",
+        "image": "images/19.jpg",
+        "choices": null,
+        "unit": null,
+        "precision": null,
+        "answer": "400",
+        "question_type": "free_form",
+        "answer_type": "integer",
+        "pid": "19",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 1024,
+            "img_height": 684,
+            "source": "TextVQA",
+            "category": "general-vqa",
+            "task": "visual question answering",
+            "context": "natural image",
+            "grade": "not applicable",
+            "skills": [
+                "numeric commonsense",
+                "arithmetic reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.\nQuestion: what is the highest amount this class measures?",
+        "response": "The highest amount the beaker in the image measures is **600 ml**.\n\nThe markings on the side of the beaker are in milliliters (ml). The largest marking is 600 ml, which is the maximum amount of liquid that the beaker can hold.\n\nThe other markings on the beaker are 300 ml, 200 ml, 100 ml, and -400 ml. The negative markings indicate the amount of liquid that is below the zero mark.\n\nI hope this answers your question. Let me know if you have any other questions.",
+        "extraction": "600",
+        "true_false": false,
+        "prediction": "600"
+    },
+    "20": {
+        "question": "Is the sum of smallest two bar is greater then the largest bar?",
+        "image": "images/20.jpg",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "unit": null,
+        "precision": null,
+        "answer": "No",
+        "question_type": "multi_choice",
+        "answer_type": "text",
+        "pid": "20",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 850,
+            "img_height": 600,
+            "source": "ChartQA",
+            "category": "general-vqa",
+            "task": "figure question answering",
+            "context": "bar chart",
+            "grade": "not applicable",
+            "skills": [
+                "statistical reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is the sum of smallest two bar is greater then the largest bar?\nChoices:\n(A) Yes\n(B) No",
+        "response": "The answer is (B). No.\n\nThe largest bar is Czechia with 21.37%, while the sum of the smallest two bars, Paraguay and Laos, is 22.7%.\n\nTherefore, the sum of the smallest two bars is not greater than the largest bar.",
+        "extraction": "B",
+        "true_false": true,
+        "prediction": "No"
+    },
+    "21": {
+        "question": "Fill in the blank to describe the model. The model has 4 dots divided into 2 equal groups. There are (_) dots in each group.",
+        "image": "images/21.jpg",
+        "choices": null,
+        "unit": null,
+        "precision": null,
+        "answer": "2",
+        "question_type": "free_form",
+        "answer_type": "integer",
+        "pid": "21",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 418,
+            "img_height": 204,
+            "source": "IconQA",
+            "category": "math-targeted-vqa",
+            "task": "math word problem",
+            "context": "abstract scene",
+            "grade": "elementary school",
+            "skills": [
+                "arithmetic reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.\nQuestion: Fill in the blank to describe the model. The model has 4 dots divided into 2 equal groups. There are (_) dots in each group.",
+        "response": "Sure, I can help you with that.\n\nThe image shows 2 circles, each with 3 dots. So there are a total of 4 dots.\n\nSince the 4 dots are divided into 2 equal groups, there are 4 / 2 = **2** dots in each group.\n\nSo the answer to the blank is **2**.\n\nHere is the code:\n\n```python\ndef dots_in_each_group(dots):\n  \"\"\"\n  This function takes an integer as input and returns the number of dots in each group.\n\n  Args:\n    dots: The number of dots.\n\n  Returns:\n    The number of dots in each group.\n  \"\"\"\n  return dots // 2\n\n\nnumber_of_dots = 4\nnumber_of_dots_in_each_group = dots_in_each_group(number_of_dots)\n\nprint(f\"There are {number_of_dots_in_each_group} dots in each group.\")\n```\n\nThis code outputs the following:\n\n```\nThere are 2 dots in each group.\n```\n\nI hope this helps! Let me know if you have any other questions.",
+        "extraction": "2",
+        "true_false": true,
+        "prediction": "2"
+    },
+    "22": {
+        "question": "How many people in the image were born after the end of World War II?",
+        "image": "images/22.jpg",
+        "choices": null,
+        "unit": null,
+        "precision": null,
+        "answer": "0",
+        "question_type": "free_form",
+        "answer_type": "integer",
+        "pid": "22",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 555,
+            "img_height": 785,
+            "source": "KVQA",
+            "category": "general-vqa",
+            "task": "visual question answering",
+            "context": "natural image",
+            "grade": "not applicable",
+            "skills": [
+                "numeric commonsense",
+                "arithmetic reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.\nQuestion: How many people in the image were born after the end of World War II?",
+        "response": "Sorry, I can't help with images of people yet.",
+        "extraction": "Sorry, I can't help with images of people yet.",
+        "true_false": false,
+        "prediction": null
+    },
+    "23": {
+        "question": "The derivative of f(x) at x=2 is ____ that at x=5",
+        "image": "images/23.jpg",
+        "choices": [
+            "larger than",
+            "equal to",
+            "smaller than"
+        ],
+        "unit": null,
+        "precision": null,
+        "answer": "equal to",
+        "question_type": "multi_choice",
+        "answer_type": "text",
+        "pid": "23",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 552,
+            "img_height": 393,
+            "source": "FunctionQA",
+            "category": "math-targeted-vqa",
+            "task": "textbook question answering",
+            "context": "function plot",
+            "grade": "college",
+            "skills": [
+                "algebraic reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: The derivative of f(x) at x=2 is ____ that at x=5\nChoices:\n(A) larger than\n(B) equal to\n(C) smaller than",
+        "response": "The correct answer is (C). The derivative of f(x) at x=2 is smaller than that at x=5.\n\nThe derivative of a function at a point gives the slope of the line tangent to the function's graph at that point. The steeper the line, the larger the derivative. In the graph, the line tangent to the graph of f(x) at x=2 is less steep than the line tangent to the graph at x=5. Therefore, the derivative of f(x) at x=2 is smaller than that at x=5.\n\nIn mathematical terms, the derivative of f(x) is given by the expression f'(x) = 2x - 3. Plugging in x=2 and x=5, we get f'(2) = 2(2) - 3 = 1 and f'(5) = 2(5) - 3 = 7. Therefore, f'(2) < f'(5).\n\nI hope this helps! Let me know if you have any other questions.",
+        "extraction": "C",
+        "true_false": false,
+        "prediction": "smaller than"
+    },
+    "24": {
+        "question": "Is Periwinkle the maximum?",
+        "image": "images/24.jpg",
+        "choices": [
+            "yes",
+            "no"
+        ],
+        "unit": null,
+        "precision": null,
+        "answer": "no",
+        "question_type": "multi_choice",
+        "answer_type": "text",
+        "pid": "24",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 709,
+            "img_height": 400,
+            "source": "FigureQA",
+            "category": "general-vqa",
+            "task": "figure question answering",
+            "context": "bar chart",
+            "grade": "not applicable",
+            "skills": [
+                "statistical reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is Periwinkle the maximum?\nChoices:\n(A) yes\n(B) no",
+        "response": "Based on the image, the correct answer is **(A) yes**.\n\nThe bar for Periwinkle is the tallest, which means it has the maximum value of 100 visitors. The other two bars, Dark Salmon and Gray, have values of 80 and 60 visitors, respectively.\n\nSo the answer to the question is yes, Periwinkle is the maximum.",
+        "extraction": "A",
+        "true_false": false,
+        "prediction": "yes"
+    },
+    "25": {
+        "question": "Is Medium Periwinkle the smoothest?",
+        "image": "images/25.jpg",
+        "choices": [
+            "yes",
+            "no"
+        ],
+        "unit": null,
+        "precision": null,
+        "answer": "no",
+        "question_type": "multi_choice",
+        "answer_type": "text",
+        "pid": "25",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 770,
+            "img_height": 400,
+            "source": "FigureQA",
+            "category": "general-vqa",
+            "task": "figure question answering",
+            "context": "scatter plot",
+            "grade": "not applicable",
+            "skills": [
+                "statistical reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is Medium Periwinkle the smoothest?\nChoices:\n(A) yes\n(B) no",
+        "response": "Based on the image, the answer is **(B) no**. Medium Periwinkle is not the smoothest color. Cadet Blue has the highest number of dots, which means it has the smoothest finish.\n\nThe number of dots in each color represents the smoothness of the finish. The more dots, the smoother the finish. Medium Periwinkle has the second highest number of dots, so it is the second smoothest color.\n\nDo you have other questions or requests?",
+        "extraction": "B",
+        "true_false": true,
+        "prediction": "no"
+    },
+    "26": {
+        "question": "Is Black greater than Deep Sky Blue?",
+        "image": "images/26.jpg",
+        "choices": [
+            "yes",
+            "no"
+        ],
+        "unit": null,
+        "precision": null,
+        "answer": "no",
+        "question_type": "multi_choice",
+        "answer_type": "text",
+        "pid": "26",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 761,
+            "img_height": 400,
+            "source": "FigureQA",
+            "category": "general-vqa",
+            "task": "figure question answering",
+            "context": "bar chart",
+            "grade": "not applicable",
+            "skills": [
+                "statistical reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is Black greater than Deep Sky Blue?\nChoices:\n(A) yes\n(B) no",
+        "response": "The answer is **(B) no**.\n\nAccording to the graph, the value for Deep Sky Blue is 60, while the value for Black is 80. Therefore, Black is greater than Deep Sky Blue.\n\nI hope this helps! Let me know if you have any other questions.",
+        "extraction": "B",
+        "true_false": true,
+        "prediction": "no"
+    },
+    "27": {
+        "question": "What is the age gap between these two people in image?",
+        "image": "images/27.jpg",
+        "choices": null,
+        "unit": "years",
+        "precision": null,
+        "answer": "11",
+        "question_type": "free_form",
+        "answer_type": "integer",
+        "pid": "27",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 2628,
+            "img_height": 1752,
+            "source": "KVQA",
+            "category": "general-vqa",
+            "task": "visual question answering",
+            "context": "natural image",
+            "grade": "not applicable",
+            "skills": [
+                "numeric commonsense",
+                "arithmetic reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.\nQuestion: What is the age gap between these two people in image? (Unit: years)",
+        "response": "Sorry, I can't help with images of people yet.",
+        "extraction": "Sorry, I can't help with images of people yet.",
+        "true_false": false,
+        "prediction": null
+    },
+    "28": {
+        "question": "$\\overline{AB}$ is a diameter, $AC=8$ inches, and $BC=15$ inches. Find the radius of the circle.",
+        "image": "images/28.jpg",
+        "choices": [
+            "7.5",
+            "8",
+            "8.5",
+            "17"
+        ],
+        "unit": null,
+        "precision": null,
+        "answer": "8.5",
+        "question_type": "multi_choice",
+        "answer_type": "text",
+        "pid": "28",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 519,
+            "img_height": 431,
+            "source": "Geometry3K",
+            "category": "math-targeted-vqa",
+            "task": "geometry problem solving",
+            "context": "geometry diagram",
+            "grade": "high school",
+            "skills": [
+                "algebraic reasoning",
+                "geometry reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: $\\overline{AB}$ is a diameter, $AC=8$ inches, and $BC=15$ inches. Find the radius of the circle.\nChoices:\n(A) 7.5\n(B) 8\n(C) 8.5\n(D) 17",
+        "response": "The diameter of a circle is twice the radius. Since $\\overline{AB}$ is a diameter, we have $AB=2r$. We are also given that $AC=8$ inches and $BC=15$ inches. Using the Pythagorean Theorem on right triangle $ABC$, we have $AB^2=AC^2+BC^2$. Plugging in the known values, we get $2r^2=8^2+15^2=289$. Solving for $r$, we get $r=\\sqrt{289/2}=\\boxed{8.5}$ inches.\n\nNote that we could have also found the radius by dividing the diameter by 2. However, using the Pythagorean Theorem allowed us to find the radius without having to calculate the diameter first.",
+        "extraction": "C",
+        "true_false": true,
+        "prediction": "8.5"
+    },
+    "29": {
+        "question": "What is the age gap between these two people in image?",
+        "image": "images/29.jpg",
+        "choices": null,
+        "unit": "years",
+        "precision": null,
+        "answer": "4",
+        "question_type": "free_form",
+        "answer_type": "integer",
+        "pid": "29",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 670,
+            "img_height": 440,
+            "source": "KVQA",
+            "category": "general-vqa",
+            "task": "visual question answering",
+            "context": "natural image",
+            "grade": "not applicable",
+            "skills": [
+                "numeric commonsense",
+                "arithmetic reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.\nQuestion: What is the age gap between these two people in image? (Unit: years)",
+        "response": "Based on the image you sent, the age gap between the king and queen is 3 years.\n\nThe king is Richard III of England, who was born in 1452. The queen is Anne Neville, who was born in 1456. So, Richard was 3 years older than Anne when they married in 1472.\n\nThe stained glass window is likely depicting the couple after their marriage, so the age gap between them would still be 3 years.",
+        "extraction": "3",
+        "true_false": false,
+        "prediction": "3"
+    },
+    "30": {
+        "question": "As shown in the figure, the two chords AB and CD in the circle intersect at E, \u2220D = 35.0, \u2220AEC = 105.0, then \u2220C = ()",
+        "image": "images/30.jpg",
+        "choices": [
+            "60\u00b0",
+            "70\u00b0",
+            "80\u00b0",
+            "85\u00b0"
+        ],
+        "unit": null,
+        "precision": null,
+        "answer": "70\u00b0",
+        "question_type": "multi_choice",
+        "answer_type": "text",
+        "pid": "30",
+        "metadata": {
+            "split": "testmini",
+            "language": "english",
+            "img_width": 117,
+            "img_height": 113,
+            "source": "UniGeo",
+            "category": "math-targeted-vqa",
+            "task": "geometry problem solving",
+            "context": "geometry diagram",
+            "grade": "high school",
+            "skills": [
+                "geometry reasoning",
+                "algebraic reasoning"
+            ]
+        },
+        "query": "Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, the two chords AB and CD in the circle intersect at E, \u2220D = 35.0, \u2220AEC = 105.0, then \u2220C = ()\nChoices:\n(A) 60\u00b0\n(B) 70\u00b0\n(C) 80\u00b0\n(D) 85\u00b0",
+        "response": "Sure, I can help you with that.\n\nThe answer is **(B). 70\u00b0**.\n\nAngles AEC and CED are inscribed angles that intercept the same arc, so they are congruent. Therefore, m\u2220AEC = m\u2220CED = 105\u00b0.\n\nAngles AED and ECD are opposite angles, so they are supplementary. Therefore, m\u2220AED + m\u2220ECD = 180\u00b0.\n\nSubstituting m\u2220AEC = 105\u00b0 and m\u2220CED = 105\u00b0, we get m\u2220AED + 105\u00b0 + 105\u00b0 = 180\u00b0.\n\nSolving for m\u2220AED, we get m\u2220AED = 70\u00b0.\n\nFinally, since \u2220AED and \u2220C are corresponding angles, they are congruent. Therefore, m\u2220C = m\u2220AED = **70\u00b0**.\n\nI hope this helps! Let me know if you have any other questions.",
+        "error": "",
+        "extraction": "B",
+        "prediction": "70\u00b0",
+        "true_false": true
+    }
+}

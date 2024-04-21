@@ -1,0 +1,110 @@
+#APSelect {
+    width: 130px; /* 设置宽度 */
+    padding: 8px 12px; /* 内边距 */
+    margin-right: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 5px; /* 边框圆角 */
+    appearance: none; /* 移除默认下拉样式 */
+    cursor: pointer; /* 鼠标样式 */
+    outline: none; /* 移除焦点时的轮廓 */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg width="12" height="12" xmlns="http://www.w3.org/2000/svg"><path d="M0 0l6 6 6-6" fill="none" stroke="%23cccccc"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center; /* 图标位置，右侧10px处，垂直居中 */
+    background-size: 12px; /* 图标大小 */
+}
+
+/* 鼠标悬停和聚焦时的样式 */
+#APSelect:hover, #APSelect:focus {
+    border-color: #0056b3; /* 悬停或聚焦时边框颜色变化 */
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 2px 5px;
+    border: 1px solid black;
+}
+
+td {
+    padding: 2px 5px;
+    border: 1px solid black;
+}
+
+thead {
+    background: #ddd;
+}
+
+table#results.js-sort-0 tbody tr td:nth-child(1),
+table#results.js-sort-1 tbody tr td:nth-child(2),
+table#results.js-sort-2 tbody tr td:nth-child(3),
+table#results.js-sort-3 tbody tr td:nth-child(4),
+table#results.js-sort-4 tbody tr td:nth-child(5),
+table#results.js-sort-5 tbody tr td:nth-child(6),
+table#results.js-sort-6 tbody tr td:nth-child(7),
+table#results.js-sort-7 tbody tr td:nth-child(8),
+table#results.js-sort-8 tbody tr td:nth-child(9),
+table#results.js-sort-9 tbody tr td:nth-child(10),
+table#results.js-sort-10 tbody tr td:nth-child(11),
+table#results.js-sort-11 tbody tr td:nth-child(12),
+table#results.js-sort-12 tbody tr td:nth-child(13),
+table#results.js-sort-13 tbody tr td:nth-child(14),
+table#results.js-sort-14 tbody tr td:nth-child(15) {
+    background: #dee;
+}
+
+/* Table for three sub-tasks */
+#results {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+/*table tile*/
+#results th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    background-color: var(--UCLA-darkblue);
+    color: white;
+}
+
+#results td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#results tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+#results tr:hover {
+    background-color: #ddd;
+}
+
+.js-sort-number:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.js-sort:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.best-score-text {
+    color: #C6011F
+    /* color: #3457D5 */
+}
